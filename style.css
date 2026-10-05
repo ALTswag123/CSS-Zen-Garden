@@ -1,1 +1,19 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+body {
+    /* background-image: url("zen-garden-background-flowers.jpg"); */
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.page-wrapper:not([role="banner"]) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+[role="banner"] {
+    display: block;
+    border: 1px solid #000000;
+}
