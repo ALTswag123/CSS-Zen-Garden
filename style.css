@@ -1,19 +1,57 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-    /* background-image: url("zen-garden-background-flowers.jpg"); */
+    background-image: url("zen-garden-background-flowers.jpg");
 }
 
 p {
     font-family: 'Inter', sans-serif;
 }
 
-.page-wrapper:not([role="banner"]) {
+.page-wrapper {
     display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
 }
 
 [role="banner"] {
-    display: block;
     border: 1px solid #000000;
+    background-color: #F9DFF6;
+    width: 96.1%;
+    align-self: stretch;
+    font-family: 'Press Start 2P';
+    text-align: center;
+    align-content: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+/* linear-gradient(to right, #BF29FF, #E877FF, #FFBDF7, #6679F4, #19E3F9) */
+
+#zen-supporting {
+    background-color: #F9DFF6;
+    border: 1px solid #000000;
+    width: 96.1%;
+}
+
+#zen-supporting > *, .summary, .preamble {
+    background-color: #FFFF;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 3px;
+}
+
+.explanation {
+    width: 30%;
+}
+
+.participation {
+    width: 30%;
 }
